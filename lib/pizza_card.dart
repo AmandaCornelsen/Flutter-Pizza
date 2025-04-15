@@ -1,9 +1,11 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:app/pizza_data.dart';
 import 'package:flutter/material.dart';
 
 class PizzaCard extends StatelessWidget {
-  const PizzaCard({super.key});
+  final Pizza pizza;
+  const PizzaCard({super.key, required this.pizza});
 
   
 
@@ -16,7 +18,7 @@ class PizzaCard extends StatelessWidget {
         child: (Row(
           children: [
             Image.asset(
-              "images/focaccia.jpg",
+              "images/${pizza.photoName}",
               width: 100,
               height: 100,
               fit: BoxFit.cover,
