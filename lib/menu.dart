@@ -23,4 +23,8 @@ class Menu extends StatelessWidget {
       ),
     );
   }
+
+  List<PizzaCard> _buildPizzas(){
+    
+  }
 }

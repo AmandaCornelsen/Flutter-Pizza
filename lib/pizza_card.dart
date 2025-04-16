@@ -30,18 +30,18 @@ class PizzaCard extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Test 1",
+                      "${pizza.name}",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
                       ),
                     ),
                     Text(
-                      "Test 2",
+                      "${pizza.ingredients}",
                       style: TextStyle(fontSize: 16, color: Colors.black87),
                     ),
                     Text(
-                      "Test 3",
+                      "${pizza.price}",
                       style: TextStyle(fontSize: 16, color: Colors.black54, fontWeight: FontWeight.w500),
                     ),
                   ],
