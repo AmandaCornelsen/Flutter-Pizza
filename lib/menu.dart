@@ -25,6 +25,6 @@ class Menu extends StatelessWidget {
   }
 
   List<PizzaCard> _buildPizzas(){
-    
+    return pizzaData.map((pizza) => PizzaCard(pizza: pizza)).toList();
   }
 }
