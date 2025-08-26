@@ -1,5 +1,7 @@
 # Flutter-Pizza – Pizza Ordering App with Firebase Authentication
 
+<img width="463" height="713" alt="image" src="https://github.com/user-attachments/assets/813d0435-d8ee-4e0c-a92f-0e5a1bd56661" />
+
 **Flutter-Pizza** is a mobile application developed using **Flutter** that simulates a pizza ordering experience. The app integrates **Firebase Authentication** for user login and registration, providing a seamless and secure authentication process.
 
 ---
